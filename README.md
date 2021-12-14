@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://kamilenna.github.io/page404/">
       Solution
     </a>
     <span> | </span>
