@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    color: #333333;
+    padding: 1.4rem 1.5rem;
+}
+
+#container-img img {
+    width: 267px;
+    height: 221px;
+    display: block;
+    margin: 3em auto;
+}
+
+main {
+    font-family: 'Space Mono', monospace;
+    width: 85vw;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+#content h1 {
+    font-size: 2.3rem;
+    margin-top: 1.5rem;
+}
+
+#content p {
+    font-size: 1.05rem;
+    margin: 1.4rem 0;
+    color: #4F4F4F;
+    line-height: 26px;
+}
+
+#content button {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+    width: 216px;
+    height: 68px;
+    margin: 3.5rem 0;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #BDBDBD;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer p a {
+    font-weight: 700;
+    color: #BDBDBD;
+}
+
+@media (min-width:1281px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container-img img{
+        width: 540px;
+        height: 448px;
+        margin-right: 2em;
+    }
+
+    #content {
+        width: 630px;
+        padding: 1rem;
+    }
+
+    #content h1{
+        font-size: 4rem;
+    }
+
+    #content p{
+        width: 380px;
+        font-size: 1.4rem;
+        line-height: 32px;
+    }
+
+    footer p {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1280px){
+
+    img {
+        width: 367px;
+        height: 321px;
+    }
+
+    main {
+        width: 45vw;
+        text-align: center;
+    }
+}
+
+@media (min-width:600px) and (max-width: 1024px){
+    img {
+        width: 367px;
+        height: 321px;
+    }
+
+    main {
+        width: 60vw;
+        text-align: center;
+    }
+}
