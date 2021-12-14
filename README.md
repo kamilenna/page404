@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://kamilenna.github.io/page404/">
+    <a href="https://kamilenna.github.io/page404/" target="_blank">
       Solution
     </a>
     <span> | </span>
